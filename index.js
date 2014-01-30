@@ -157,7 +157,7 @@ Datepicker.prototype.show = function() {
   this.popover.classname = 'datepicker-popover popover';
   this.popover.show(this.el);
 
-  event.bind(this.popover.el[0], 'click', function(e) { e.stopPropagation(); return false; });
+  event.bind(this.popover.el, 'click', function(e) { e.stopPropagation(); return false; });
 }
 
 /**
@@ -195,8 +195,6 @@ Datepicker.prototype.onkeydown = function(e){
       this.hide();
 
       break;
-    default:
-      console.log(keyname(e.which));
   }
 };
 
