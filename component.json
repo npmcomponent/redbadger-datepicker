@@ -16,7 +16,6 @@
     "component/events": "*",
     "component/keyname": "*",
     "component/aurora-tip": "0.0.2",
-    "component/tip": "0.2.1",
     "component/emitter": "*"
   },
   "development": {},
