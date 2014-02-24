@@ -148,7 +148,11 @@ Datepicker.prototype.value = function(date) {
  */
 
 Datepicker.prototype.show = function() {
-  var ev = new Event('click');
+  // Using old fashioned way of creating events
+  // as described on MDN: https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events
+  // This way datepicker doesn't fail to show up on IE browsers
+  var ev = document.createEvent('Event');
+  ev.initEvent('click', true, true);
   document.dispatchEvent(ev);
 
   if (this.popover) return;
