@@ -4,11 +4,17 @@ A date picker UI component built on component/calendar. Forked from component/da
 
 ![screen shot 2013-06-17 at 13 31 47](https://f.cloud.github.com/assets/574696/661644/4593118a-d739-11e2-9bdf-4b91b99b8a38.png)
 
-## Install
+## How to use
 
-```
-$ component install redbadger/datepicker
-```
+This is a component component. You can easily plug it into your site or web app. Check the example of usage in test/index.html. To get things working, follow these easy steps (assuming you already have Node.js and npm installed):
+
+* `npm install -g component`
+* Clone this repository and navigate into the component folder
+* Run `component install` to fetch dependencies
+* Run `component build`
+* Now you can open test/index.html and if everything is fine you should be able to see the component in action
+
+If your app already uses components, you can simply run `component install redbadger/datepicker` - this will fetch and install all dependencies into /components folder of your project.
 
 ## Features
 
