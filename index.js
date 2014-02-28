@@ -2,12 +2,12 @@
  * Module dependencies.
  */
 
-var Calendar = require('calendar')
-  , Popover = require('popover')
-  , event = require('event')
-  , events = require('events')
-  , keyname = require('keyname')
-  , Emitter = require('emitter');
+var Calendar = require('component-calendar')
+  , Popover = require('component-popover')
+  , event = require('component-event')
+  , events = require('component-events')
+  , keyname = require('component-keyname')
+  , Emitter = require('component-emitter');
 
 
 /**

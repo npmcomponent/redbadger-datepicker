@@ -1,0 +1,24 @@
+{
+  "name": "redbadger-datepicker",
+  "description": "Improved datepicker UI",
+  "version": "0.5.0",
+  "keywords": [
+    "date",
+    "picker",
+    "calendar"
+  ],
+  "styles": [
+    "datepicker.css"
+  ],
+  "dependencies": {
+    "component-calendar": "git://github.com/npmcomponent/component-calendar.git",
+    "component-popover": "git://github.com/npmcomponent/component-popover.git",
+    "component-aurora": "git://github.com/npmcomponent/component-aurora.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-keyname": "git://github.com/npmcomponent/component-keyname.git",
+    "component-aurora-tip": "git://github.com/npmcomponent/component-aurora-tip.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
+  },
+  "license": "MIT"
+}
